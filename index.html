@@ -6,44 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bootstrap</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- CSS only -->
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.css"
+      integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
+      crossorigin="anonymous"
     />
-    <script src="node_modules/jquery/dist/jquery.js"></script>
-    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+      crossorigin="anonymous"
+    ></script>
   </head>
+
   <body>
-    
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <a href="" class="navbar-brand">Branding</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="" class="nav-link">Contact</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Pricing</a></li>
-          <li class="nav-item"><a href="" class="nav-link">Download</a></li>
-        </ul>
+      <div class="container-fluid ps-5 pe-5">
+        <a class="navbar-brand" href="#">Branding</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" href="#">Download</a>
+            <a class="nav-link" aria-current="page" href="#">Contact</a>
+            <a class="nav-link" href="#">Pricing</a>
+          </div>
+        </div>
       </div>
     </nav>
-    <div class="jumbotron">
+
+    <div class="p-5 mb-4 bg-light rounded-3">
       <h1 class="display-4" style="margin-top: 4rem">Hello World</h1>
       <p class="lead">
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum illum incidunt deleniti ab iure quos commodi accusantium architecto atque?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem ipsum
+        illum incidunt deleniti ab iure quos commodi accusantium architecto
+        atque?
       </p>
       <hr class="my-4" />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis atque fuga laudantium, officia numquam, deserunt, ipsum voluptatibus dolores a necessitatibus repudiandae dolore eveniet dicta nobis incidunt explicabo expedita saepe cumque.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis atque
+        fuga laudantium, officia numquam, deserunt, ipsum voluptatibus dolores a
+        necessitatibus repudiandae dolore eveniet dicta nobis incidunt explicabo
+        expedita saepe cumque.
       </p>
       <p class="lead">
         <a href="#" role="button" class="btn btn-primary btn-lg">Primary CTA</a>
@@ -146,15 +161,29 @@
           >
             <div
               class="center_content"
-              style="position: absolute; bottom: 0rem; left: 0rem; right: 0rem; padding: 2rem; backdrop-filter: blur(20px); background: #FFFFFFAA;"
+              style="
+                position: absolute;
+                bottom: 0rem;
+                left: 0rem;
+                right: 0rem;
+                padding: 2rem;
+                backdrop-filter: blur(20px);
+                background: #ffffffaa;
+              "
             >
-              <h3 class="display">Nature</h1>
-              <div class="flex-box" style="display: flex;">
+              <h3 class="display">Nature</h3>
+              <div class="flex-box" style="display: flex">
                 <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit ullam error ut fuga animi laboriosam fugit nostrum.
-              </p>
-              <button class="btn btn-primary" style="width: 128px; height: 40px;">View More</button></div>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Impedit ullam error ut fuga animi laboriosam fugit nostrum.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  style="width: 128px; height: 40px"
+                >
+                  View More
+                </button>
+              </div>
             </div>
             <img
               style="object-fit: cover"
@@ -164,15 +193,29 @@
           <div class="carousel-item" style="background: orangered">
             <div
               class="center_content"
-              style="position: absolute; bottom: 0rem; left: 0rem; right: 0rem; padding: 2rem; backdrop-filter: blur(20px); background: #FFFFFFAA;"
+              style="
+                position: absolute;
+                bottom: 0rem;
+                left: 0rem;
+                right: 0rem;
+                padding: 2rem;
+                backdrop-filter: blur(20px);
+                background: #ffffffaa;
+              "
             >
-              <h3 class="display">Technology</h1>
-              <div class="flex-box" style="display: flex;">
+              <h3 class="display">Technology</h3>
+              <div class="flex-box" style="display: flex">
                 <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit ullam error ut fuga animi laboriosam fugit nostrum.
-              </p>
-              <button class="btn btn-primary" style="width: 128px; height: 40px;">View More</button></div>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Impedit ullam error ut fuga animi laboriosam fugit nostrum.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  style="width: 128px; height: 40px"
+                >
+                  View More
+                </button>
+              </div>
             </div>
             <img
               style="object-fit: cover"
@@ -182,15 +225,29 @@
           <div class="carousel-item" style="background: dodgerblue">
             <div
               class="center_content"
-              style="position: absolute; bottom: 0rem; left: 0rem; right: 0rem; padding: 2rem; backdrop-filter: blur(20px); background: #FFFFFFAA;"
+              style="
+                position: absolute;
+                bottom: 0rem;
+                left: 0rem;
+                right: 0rem;
+                padding: 2rem;
+                backdrop-filter: blur(20px);
+                background: #ffffffaa;
+              "
             >
-              <h3 class="display">Architecture</h1>
-              <div class="flex-box" style="display: flex;">
+              <h3 class="display">Architecture</h3>
+              <div class="flex-box" style="display: flex">
                 <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Impedit ullam error ut fuga animi laboriosam fugit nostrum.
-              </p>
-              <button class="btn btn-primary" style="width: 128px; height: 40px;">View More</button></div>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Impedit ullam error ut fuga animi laboriosam fugit nostrum.
+                </p>
+                <button
+                  class="btn btn-primary"
+                  style="width: 128px; height: 40px"
+                >
+                  View More
+                </button>
+              </div>
             </div>
             <img
               style="object-fit: cover"
@@ -224,15 +281,15 @@
     <section class="bootstrap-container" style="width: 70vw; margin: 0 auto">
       <h1 style="padding: 2rem 0 0rem">Bootstrap Pricing Example</h1>
       <h3 style="padding: 2rem 0 1rem">Choose your plan, or something</h3>
-      <div class="container">
-        <div class="card-deck mb-3 text-center">
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Free</h4>
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Free</h4>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">
-                $0 <small class="text-muted">/ mo</small>
+                $0<small class="text-muted fw-light">/mo</small>
               </h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>10 users included</li>
@@ -242,19 +299,21 @@
               </ul>
               <button
                 type="button"
-                class="btn btn-lg btn-block btn-outline-primary"
+                class="w-100 btn btn-lg btn-outline-primary"
               >
                 Sign up for free
               </button>
             </div>
           </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Pro</h4>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">
-                $15 <small class="text-muted">/ mo</small>
+                $15<small class="text-muted fw-light">/mo</small>
               </h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>20 users included</li>
@@ -262,18 +321,20 @@
                 <li>Priority email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">
+              <button type="button" class="w-100 btn btn-lg btn-primary">
                 Get started
               </button>
             </div>
           </div>
-          <div class="card mb-4 box-shadow">
-            <div class="card-header">
-              <h4 class="my-0 font-weight-normal">Enterprise</h4>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-primary border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
             </div>
             <div class="card-body">
               <h1 class="card-title pricing-card-title">
-                $29 <small class="text-muted">/ mo</small>
+                $29<small class="text-muted fw-light">/mo</small>
               </h1>
               <ul class="list-unstyled mt-3 mb-4">
                 <li>30 users included</li>
@@ -281,11 +342,13 @@
                 <li>Phone and email support</li>
                 <li>Help center access</li>
               </ul>
-              <button type="button" class="btn btn-lg btn-block btn-primary">
+              <button type="button" class="w-100 btn btn-lg btn-primary">
                 Contact us
               </button>
             </div>
           </div>
+        </div>
+      </div>
       <div class="blank" style="padding: 0 0 2rem"></div>
     </section>
     <hr />
